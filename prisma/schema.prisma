@@ -1,0 +1,57 @@
+model Document {
+  id Int @id @default(autoincrement())
+  title String @unique
+  yearPublished Int
+  docType DocType
+  image String?
+  createdAt DateTime @default(now())
+} 
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Admin {
+  id String @id
+  username String @unique
+}
+
+model Contributor {
+  id String @id
+  username String @unique
+}
+
+model Document {
+  id Int @id @default(autoincrement())
+  title String @unique
+  yearPublished Int
+  docType DocType
+  createdAt DateTime @default(now())
+}
+
+model Asset {
+  id Int @id @default(autoincrement())
+  title String @unique
+  yearPublished Int
+  docType DocType
+  createdAt DateTime @default(now())
+}
+
+
+enum DocType{
+  TYPE1
+  TYPE2
+  TYPE3
+  TYPE4
+  TYPE5
+  TYPE6
+  TYPE7
+  TYPE8
+}

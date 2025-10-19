@@ -6,120 +6,120 @@ export const teachersData = [
   {
     id: 1,
     teacherId: "1234567890",
-    name: "John Doe",
+    title: "John Doe",
     email: "john@doe.com",
     photo:
       "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Math", "Geometry"],
+    category: ["Math", "Geometry"],
     classes: ["1B", "2A", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 2,
     teacherId: "1234567890",
-    name: "Jane Doe",
+    title: "Jane Doe",
     email: "jane@doe.com",
     photo:
       "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Physics", "Chemistry"],
+    category: ["Physics", "Chemistry"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 3,
     teacherId: "1234567890",
-    name: "Mike Geller",
+    title: "Mike Geller",
     email: "mike@geller.com",
     photo:
       "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Biology"],
+    category: ["Biology"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 4,
     teacherId: "1234567890",
-    name: "Jay French",
+    title: "Jay French",
     email: "jay@gmail.com",
     photo:
       "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["History"],
+    category: ["History"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 5,
     teacherId: "1234567890",
-    name: "Jane Smith",
+    title: "Jane Smith",
     email: "jane@gmail.com",
     photo:
       "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Music", "History"],
+    category: ["Music", "History"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 6,
     teacherId: "1234567890",
-    name: "Anna Santiago",
+    title: "Anna Santiago",
     email: "anna@gmail.com",
     photo:
       "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Physics"],
+    category: ["Physics"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 7,
     teacherId: "1234567890",
-    name: "Allen Black",
+    title: "Allen Black",
     email: "allen@black.com",
     photo:
       "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["English", "Spanish"],
+    category: ["English", "Spanish"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 8,
     teacherId: "1234567890",
-    name: "Ophelia Castro",
+    title: "Ophelia Castro",
     email: "ophelia@castro.com",
     photo:
       "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Math", "Geometry"],
+    category: ["Math", "Geometry"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 9,
     teacherId: "1234567890",
-    name: "Derek Briggs",
+    title: "Derek Briggs",
     email: "derek@briggs.com",
     photo:
       "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Literature", "English"],
+    category: ["Literature", "English"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
   {
     id: 10,
     teacherId: "1234567890",
-    name: "John Glover",
+    title: "John Glover",
     email: "john@glover.com",
     photo:
       "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
-    subjects: ["Biology"],
+    category: ["Biology"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -129,7 +129,7 @@ export const studentsData = [
   {
     id: 1,
     studentId: "1234567890",
-    name: "John Doe",
+    title: "John Doe",
     email: "john@doe.com",
     photo:
       "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -141,7 +141,7 @@ export const studentsData = [
   {
     id: 2,
     studentId: "1234567890",
-    name: "Jane Doe",
+    title: "Jane Doe",
     email: "jane@doe.com",
     photo:
       "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -153,7 +153,7 @@ export const studentsData = [
   {
     id: 3,
     studentId: "1234567890",
-    name: "Mike Geller",
+    title: "Mike Geller",
     email: "mike@geller.com",
     photo:
       "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -165,7 +165,7 @@ export const studentsData = [
   {
     id: 4,
     studentId: "1234567890",
-    name: "Jay French",
+    title: "Jay French",
     email: "jay@gmail.com",
     photo:
       "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -177,7 +177,7 @@ export const studentsData = [
   {
     id: 5,
     studentId: "1234567890",
-    name: "Jane Smith",
+    title: "Jane Smith",
     email: "jane@gmail.com",
     photo:
       "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -189,7 +189,7 @@ export const studentsData = [
   {
     id: 6,
     studentId: "1234567890",
-    name: "Anna Santiago",
+    title: "Anna Santiago",
     email: "anna@gmail.com",
     photo:
       "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -201,7 +201,7 @@ export const studentsData = [
   {
     id: 7,
     studentId: "1234567890",
-    name: "Allen Black",
+    title: "Allen Black",
     email: "allen@black.com",
     photo:
       "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -213,7 +213,7 @@ export const studentsData = [
   {
     id: 8,
     studentId: "1234567890",
-    name: "Ophelia Castro",
+    title: "Ophelia Castro",
     email: "ophelia@castro.com",
     photo:
       "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -225,7 +225,7 @@ export const studentsData = [
   {
     id: 9,
     studentId: "1234567890",
-    name: "Derek Briggs",
+    title: "Derek Briggs",
     email: "derek@briggs.com",
     photo:
       "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -237,7 +237,7 @@ export const studentsData = [
   {
     id: 10,
     studentId: "1234567890",
-    name: "John Glover",
+    title: "John Glover",
     email: "john@glover.com",
     photo:
       "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -251,7 +251,7 @@ export const studentsData = [
 export const parentsData = [
   {
     id: 1,
-    name: "John Doe",
+    title: "John Doe",
     students: ["Sarah Brewer"],
     email: "john@doe.com",
     phone: "1234567890",
@@ -259,7 +259,7 @@ export const parentsData = [
   },
   {
     id: 2,
-    name: "Jane Doe",
+    title: "Jane Doe",
     students: ["Cecilia Bradley"],
     email: "jane@doe.com",
     phone: "1234567890",
@@ -267,7 +267,7 @@ export const parentsData = [
   },
   {
     id: 3,
-    name: "Mike Geller",
+    title: "Mike Geller",
     students: ["Fanny Caldwell"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -275,7 +275,7 @@ export const parentsData = [
   },
   {
     id: 4,
-    name: "Jay French",
+    title: "Jay French",
     students: ["Mollie Fitzgerald", "Ian Bryant"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -283,7 +283,7 @@ export const parentsData = [
   },
   {
     id: 5,
-    name: "Jane Smith",
+    title: "Jane Smith",
     students: ["Mable Harvey"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -291,7 +291,7 @@ export const parentsData = [
   },
   {
     id: 6,
-    name: "Anna Santiago",
+    title: "Anna Santiago",
     students: ["Joel Lambert"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -299,7 +299,7 @@ export const parentsData = [
   },
   {
     id: 7,
-    name: "Allen Black",
+    title: "Allen Black",
     students: ["Carrie Tucker", "Lilly Underwood"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -307,7 +307,7 @@ export const parentsData = [
   },
   {
     id: 8,
-    name: "Ophelia Castro",
+    title: "Ophelia Castro",
     students: ["Alexander Blair"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -315,7 +315,7 @@ export const parentsData = [
   },
   {
     id: 9,
-    name: "Derek Briggs",
+    title: "Derek Briggs",
     students: ["Susan Webster", "Maude Stone"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -323,7 +323,7 @@ export const parentsData = [
   },
   {
     id: 10,
-    name: "John Glover",
+    title: "John Glover",
     students: ["Stella Scott"],
     email: "mike@geller.com",
     phone: "1234567890",
@@ -331,55 +331,55 @@ export const parentsData = [
   },
 ];
 
-export const subjectsData = [
+export const categoryData = [
   {
     id: 1,
-    name: "Math",
+    title: "Math",
     teachers: ["Alice Phelps", "Russell Davidson"],
   },
   {
     id: 2,
-    name: "English",
+    title: "English",
     teachers: ["Manuel Becker", "Eddie Chavez"],
   },
   {
     id: 3,
-    name: "Physics",
+    title: "Physics",
     teachers: ["Lola Newman", "Darrell Delgado"],
   },
   {
     id: 4,
-    name: "Chemistry",
+    title: "Chemistry",
     teachers: ["Nathan Kelly", "Benjamin Snyder"],
   },
   {
     id: 5,
-    name: "Biology",
+    title: "Biology",
     teachers: ["Alma Benson", "Lina Collier"],
   },
   {
     id: 6,
-    name: "History",
+    title: "History",
     teachers: ["Hannah Bowman", "Betty Obrien"],
   },
   {
     id: 7,
-    name: "Geography",
+    title: "Geography",
     teachers: ["Lora French", "Sue Brady"],
   },
   {
     id: 8,
-    name: "Art",
+    title: "Art",
     teachers: ["Harriet Alvarado", "Mayme Keller"],
   },
   {
     id: 9,
-    name: "Music",
+    title: "Music",
     teachers: ["Gertrude Roy", "Rosa Singleton"],
   },
   {
     id: 10,
-    name: "Literature",
+    title: "Literature",
     teachers: ["Effie Lynch", "Brett Flowers"],
   },
 ];
@@ -387,70 +387,70 @@ export const subjectsData = [
 export const classesData = [
   {
     id: 1,
-    name: "1A",
+    title: "1A",
     capacity: 20,
     grade: 1,
     supervisor: "Joseph Padilla",
   },
   {
     id: 2,
-    name: "2B",
+    title: "2B",
     capacity: 22,
     grade: 2,
     supervisor: "Blake Joseph",
   },
   {
     id: 3,
-    name: "3C",
+    title: "3C",
     capacity: 20,
     grade: 3,
     supervisor: "Tom Bennett",
   },
   {
     id: 4,
-    name: "4B",
+    title: "4B",
     capacity: 18,
     grade: 4,
     supervisor: "Aaron Collins",
   },
   {
     id: 5,
-    name: "5A",
+    title: "5A",
     capacity: 16,
     grade: 5,
     supervisor: "Iva Frank",
   },
   {
     id: 5,
-    name: "5B",
+    title: "5B",
     capacity: 20,
     grade: 5,
     supervisor: "Leila Santos",
   },
   {
     id: 7,
-    name: "7A",
+    title: "7A",
     capacity: 18,
     grade: 7,
     supervisor: "Carrie Walton",
   },
   {
     id: 8,
-    name: "6B",
+    title: "6B",
     capacity: 22,
     grade: 6,
     supervisor: "Christopher Butler",
   },
   {
     id: 9,
-    name: "6C",
+    title: "6C",
     capacity: 18,
     grade: 6,
     supervisor: "Marc Miller",
   },
   {
     id: 10,
-    name: "6D",
+    title: "6D",
     capacity: 20,
     grade: 6,
     supervisor: "Ophelia Marsh",
@@ -844,7 +844,7 @@ export const eventsData = [
   },
   {
     id: 10,
-    title: "Sports Tournament",
+    title: "Sports Tourtitlent",
     class: "5B",
     date: "2025-01-01",
     startTime: "10:00",
